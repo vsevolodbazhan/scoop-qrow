@@ -1,17 +1,17 @@
 {
-    "version": "0.0.0",
+    "version": "0.5.0-nightly.20261111.52",
     "description": "Desktop SQL workbench for Kyuubi (Spark), Postgres, and Trino (nightly build)",
     "homepage": "https://qrow.dev/",
     "license": "MIT",
     "notes": "Qrow Nightly uses the same workspace and settings as the stable qrow package.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v0.0.0/Qrow-0.0.0-windows-x86_64.zip",
-            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+            "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v0.5.0-nightly.20261111.52/Qrow-0.5.0-nightly.20261111.52-windows-x86_64.zip",
+            "hash": "b1172f0472efbc8d94df1863a1d11f8286357ef06c38d748adae42da9823ea72"
         },
         "arm64": {
-            "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v0.0.0/Qrow-0.0.0-windows-aarch64.zip",
-            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+            "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v0.5.0-nightly.20261111.52/Qrow-0.5.0-nightly.20261111.52-windows-aarch64.zip",
+            "hash": "e9ac0f32aa3c8ec729dd72c2c26b546c715d6797483a163819f844727943b3e9"
         }
     },
     "bin": [
