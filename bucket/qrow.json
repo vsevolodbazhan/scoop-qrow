@@ -1,0 +1,36 @@
+{
+    "version": "0.0.0",
+    "description": "Desktop SQL workbench for Kyuubi (Spark), Postgres, and Trino",
+    "homepage": "https://qrow.dev/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v0.0.0/Qrow-0.0.0-windows-x86_64.zip",
+            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "arm64": {
+            "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v0.0.0/Qrow-0.0.0-windows-aarch64.zip",
+            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+    },
+    "bin": "qrow.exe",
+    "shortcuts": [
+        [
+            "qrow.exe",
+            "Qrow"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/vsevolodbazhan/qrow"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v$version/Qrow-$version-windows-x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/vsevolodbazhan/qrow/releases/download/v$version/Qrow-$version-windows-aarch64.zip"
+            }
+        }
+    }
+}
